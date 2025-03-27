@@ -5,7 +5,8 @@
     "dev": "next dev --turbopack",
     "start": "next start",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
