@@ -1,0 +1,12 @@
+# Directories
+node_modules/
+.next/
+build/
+dist/
+public/
+
+# Files
+*.min.js
+*.lock
+*.log
+.DS_Store
